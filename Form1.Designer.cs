@@ -1,4 +1,4 @@
-﻿namespace ArredondoPalomino_GabrielGiovani
+﻿namespace GestorAlumnos
 {
     partial class Form1
     {

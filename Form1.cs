@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ArredondoPalomino_GabrielGiovani
+namespace GestorAlumnos
 {
     public partial class Form1 : Form
     {

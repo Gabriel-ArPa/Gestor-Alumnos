@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArredondoPalomino_GabrielGiovani.Properties
+namespace GestorAlumnos.Properties
 {
 
 
