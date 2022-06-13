@@ -1,13 +1,7 @@
-﻿using System;
+﻿using GestorAlumnos.Models;
+using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GestorAlumnos
@@ -28,7 +22,7 @@ namespace GestorAlumnos
                 return int.Parse(txtCod.Text);
 
             }
-            catch (Exception e)
+            catch
             {
                 MessageBox.Show("Ingrese codigo", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return 0;

@@ -1,10 +1,7 @@
-﻿using System;
+﻿using GestorAlumnos.Models;
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GestorAlumnos
 {
@@ -78,7 +75,7 @@ namespace GestorAlumnos
                             default:
                                 break;
                         }
-                    } 
+                    }
                     else if (sexo == "todos")
                     {
                         switch (grupo)
@@ -137,6 +134,6 @@ namespace GestorAlumnos
             return arralumnos;
         }
 
-        
+
     }
 }
