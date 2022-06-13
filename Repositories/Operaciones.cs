@@ -3,7 +3,7 @@ using System;
 using System.Collections;
 using System.IO;
 
-namespace GestorAlumnos
+namespace GestorAlumnos.Repositories
 {
     class Operaciones
     {
